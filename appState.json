@@ -1,0 +1,118 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7e99db85-21ff-43f9-afee-16df17a55b11": {
+        "id": "7e99db85-21ff-43f9-afee-16df17a55b11",
+        "parent": null,
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "function.js",
+        "cursor": {
+          "lineNumber": 26,
+          "column": 57
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "b8f4cb67-5d8d-41dc-96d8-c668feb1140c": {
+        "id": "b8f4cb67-5d8d-41dc-96d8-c668feb1140c",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "1c9af86f-a4bf-4d96-8fc2-e81f70de9886": {
+        "id": "1c9af86f-a4bf-4d96-8fc2-e81f70de9886",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "e58ef496-774e-4ccc-8105-dfa81aac13d7": {
+        "id": "e58ef496-774e-4ccc-8105-dfa81aac13d7",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "7e99db85-21ff-43f9-afee-16df17a55b11"
+    ],
+    "currentFileId": "7e99db85-21ff-43f9-afee-16df17a55b11",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "pubsubnewRajapakse": {
+        "name": "pubsubnewRajapakse",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 0,
+          "topic": {
+            "name": "new-rajapakse",
+            "subscriptions": []
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "test-rajapkase-public",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582627589652
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test-rajapkase-public",
+      "url": "https://github.com/Indunil1992/test-rajapkase-public"
+    }
+  }
+}
